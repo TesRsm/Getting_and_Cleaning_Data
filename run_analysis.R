@@ -50,3 +50,4 @@ for(j in 1:30){
 for(k in 3:length(names(outcome))){
   paste("averge-",names(outcome)[k],sep="")->names(outcome)[k]
 }
+outcome
